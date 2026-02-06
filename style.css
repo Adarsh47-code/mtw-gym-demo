@@ -1,0 +1,372 @@
+ul li {
+    list-style-type: none;
+    font-size: 2.5em;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    background-color: grey;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+
+}
+ul li a:hover{
+    color: rgb(32, 32, 32);
+    transition: all 0.5s ease-in-out;
+}
+
+#home {
+    min-height: 100vh;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+.main-line {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 3em;
+    text-align: center;
+    letter-spacing: -1px;
+}
+
+.bench,
+.curls,
+.deadlift {
+    height: 45vh;
+    width: 35vw;
+    border-radius: 20px;
+}
+
+.image-holder {
+    display: flex;
+    gap: 30px;
+}
+
+.bench:hover {
+    transform: scale(1.05);
+    transition: all 0.4s ease-out;
+    box-shadow: 0 0 20px rgba(0, 255, 0, 0.4);
+}
+
+.curls:hover {
+    transform: scale(1.05);
+    transition: all 0.4s ease-out;
+    box-shadow: 0 0 20px rgba(255, 255, 0, 0.4);
+}
+
+.deadlift:hover {
+    transform: scale(1.05);
+    transition: all 0.4s ease-out;
+    box-shadow: 0 0 20px rgba(0, 0, 255, 0.4);
+}
+
+.reinforcement {
+    font-size: 1.7em;
+    font-style: italic;
+    margin-left: 40px;
+}
+
+.cta {
+    font-size: 1.5em;
+    margin-top: 57px;
+    margin-left: 20px;
+
+}
+.cta-button {
+    text-decoration: none;
+    color: black;
+    background-color: cyan;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 15px;
+    /* text-transform: uppercase; */
+}
+
+.cta-button:hover {
+    background-color: rgb(135, 255, 255);
+    transition: all 0.5s ease-in-out;
+    transform: scale(1.05);
+}
+
+.testimonial {
+    font-size: 1.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 30px;
+    margin-top: 60px;
+}
+
+.response {
+    font-size: 1.2rem;
+    font-style: italic;
+    margin-left: 30px;
+}
+
+#price-section {
+    /*This catch the whole section*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 50px 20px;
+    flex-wrap: wrap;
+    margin-top: 200px;
+    min-height: 100vh;
+}
+
+/* Standard card styling */
+.pricing-card {
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+    padding: 40px 30px;
+    width: 300px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Pro card styling */
+.pro-price {
+    border: 1px solid cyan;
+    padding: 40px 30px;
+    transform: scale(1.05);
+    box-shadow: 0 10px 30px rgba(0, 206, 209, 0.15);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 25px;
+}
+
+.pro-price li {
+    font-size: 1.4em;
+    margin: 12px 0;
+}
+
+.pro-price li::before {
+    content: "✓";
+    margin-right: 10px;
+    color: rgb(32, 32, 32);
+}
+
+.badge {
+    position: absolute;
+    top: -15px;
+    left: 50px;
+    background-color: #00CED1;
+    color: black;
+    font-size: 0.8rem;
+    font-weight: 800;
+    padding: 5px 15px;
+    border-radius: 20px;
+}
+
+/* Typography */
+.pricing-card h3 {
+    font-size: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.price {
+    font-size: 2.8rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.price span {
+    font-size: 1rem;
+}
+
+.pricing-card ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.pricing-card li {
+    margin: 12px 0;
+    font-size: 1.4em;
+}
+
+.pricing-card li::before {
+    content: "✓";
+    color: #00ced1;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.premium-price {
+    border: 2px solid grey;
+    padding: 40px 30px;
+    border-radius: 25px;
+}
+
+.premium-price li {
+    font-size: 1.4em;
+    margin: 12px 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.premium-price li::before {
+    content: "✓";
+    color: cyan;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.pro-price h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.premium-price h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* .seperator {
+    font-size: 3.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 40px;
+    margin-left: 60px;
+} */
+
+/* Contact Section begins here */
+.deal-line {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3.2rem;
+    margin-top: 35px;
+}
+
+#contact {
+    min-height: 100vh;
+}
+
+.contact-options {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 110px;
+}
+
+.call-btn {
+    background-color: #2479DB;
+    padding: 30px 20px;
+    border-radius: 20px;
+    color: black;
+    text-decoration: none;
+    width: 300px;
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+
+.call-btn:hover {
+    background-color: #4B91E2;
+    transition: all 0.4s ease-in;
+    cursor: pointer;
+}
+
+.mail-btn {
+    background-color: #2479DB;
+    padding: 30px 20px;
+    border-radius: 20px;
+    color: black;
+    text-decoration: none;
+    width: 300px;
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+
+.mail-btn:hover {
+    background-color: #4B91E2;
+    transition: all 0.4s ease-in;
+    cursor: pointer;
+}
+
+.whatsapp-btn {
+    background-color: #2479DB;
+    padding: 30px 20px;
+    border-radius: 20px;
+    color: black;
+    text-decoration: none;
+    width: 300px;
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+
+.whatsapp-btn:hover {
+    background-color: #4B91E2;
+    transition: all 0.4s ease-in;
+    cursor: pointer;
+}
+
+.close-line {
+    font-size: 1.4rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.closing {
+    margin-top: 70px;
+
+}
+
+.last-war {
+    font-size: 1.3rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.contact{
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.4s ease-in;
+}
+.contact.visible{
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.money{
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.4s ease-in;
+}
+.money.show{
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Media Queries begin here */
+@media screen and (max-width: 480px){
+    .image-holder{
+        flex-direction: column;
+    }
+    .bench, .deadlift{
+        width: 100%;
+
+    }
+    .curls{
+        width: 96vw;
+    }
+}
