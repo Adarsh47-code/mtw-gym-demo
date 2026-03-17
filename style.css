@@ -368,6 +368,14 @@ html {
 
 .location{
     text-align: center;
+    margin-top: 70px;
+}
+.gymLocation{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.7rem;
+    margin-top: 50px;
+    margin-bottom: 10px;
 }
 
 /* Media Queries begin here */
