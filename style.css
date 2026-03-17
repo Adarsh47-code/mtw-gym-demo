@@ -31,7 +31,7 @@ html {
 }
 .main-line {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 3em;
+    font-size: 2.3em;
     text-align: center;
     letter-spacing: -1px;
 }
@@ -360,10 +360,21 @@ html {
     transform: translateY(0);
 }
 
+.gym-name{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.location{
+    text-align: center;
+}
+
 /* Media Queries begin here */
 @media screen and (max-width: 480px){
     .image-holder{
         flex-direction: column;
+        justify-content: center;
     }
     .bench, .deadlift{
         width: 100%;
@@ -386,5 +397,8 @@ html {
     .main-line{
         font-size: 1.5rem;
         font-weight: bolder;
+    }
+    .location{
+        text-align: center;
     }
 }
