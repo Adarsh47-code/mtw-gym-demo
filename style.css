@@ -6,7 +6,7 @@ ul li {
 nav ul {
     display: flex;
     justify-content: center;
-    gap: 35px;
+    gap: 70px;
     background-color: grey;
     padding: 20px;
     border-radius: 25px;
@@ -369,6 +369,7 @@ html {
 .location{
     text-align: center;
     margin-top: 70px;
+    padding: 10px 25px;
 }
 .gymLocation{
     text-align: center;
@@ -386,14 +387,16 @@ html {
     }
     .bench, .deadlift{
         width: 100%;
+        justify-content: center;
 
     }
     .curls{
         width: 96vw;
+        justify-content: center;
     }
 
     nav ul{
-        gap: 13px;
+        gap: 20px;
     }
 
     ul li{
